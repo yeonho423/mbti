@@ -655,7 +655,9 @@ while True:
             print("더 알고 싶은것이 있나요?")
             아주_용함 = input("o 아니면 x로 답해주세요.")
 
-    print("다시하시 겠습니까?")
+    엉 = input("피드백을 달아주시면 감사하겠습니다.(넘기고 싶다면 x)")
+    if 엉 == 'x' or 엉 == 'X':
+        print("다시하시 겠습니까?")
     답 = input("y or no: ")
     if 답 == 'y':
         continue
